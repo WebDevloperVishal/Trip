@@ -49,7 +49,7 @@ app.use("/api/blogs", blogRoutes);
 app.use("/api/ai", aiRoutes);
 
 app.get("/", (req, res) => {
-  res.status(200).send("VitalTrip Backend Running Successfully!");
+  res.status(200).send("Trip Backend Running Successfully!");
 });
 
 
