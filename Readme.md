@@ -83,22 +83,14 @@ VitalTrip/
 
 ### Steps
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/D-moc/VitalTrip.git
-   cd VitalTrip
-
-2. Setup Backend
+1. Setup Backend
     ```bash
     cd Backend
     npm install
     npm run dev
 
-3. Setup Frontend
+2. Setup Frontend
     ```bash
     cd ../Frontend
     npm install
     npm run dev
-
-
-
