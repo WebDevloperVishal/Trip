@@ -7,10 +7,8 @@ import { fileURLToPath } from "url";
 import { connectDB } from "./db/db.js";
 import { errorHandler } from "./middlewares/error.middleware.js";
 
-
 dotenv.config();
 connectDB();
-
 
 const app = express();
 
